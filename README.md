@@ -10,34 +10,34 @@ We’re living in a rapidly changing world, most companies start with a small ap
 #### Structural Design Patterns. 
 Structural patterns are concerned with how classes and objects are composed to form larger structures. Structural class patterns use inheritance to compose interfaces or implementations. As a simple example, consider how multiple inheritance mixes two or more classes into one. The result is a class that combines the properties of its parent classes. This pattern is particularly useful for making independently developed class libraries work together
 
-  1. Adapter Pattern, adapts' one interface for a class into one that a client expects
-  2. Aggregate Pattern, a version of the Composite pattern with methods for aggregation of children
-  3. Composite Pattern, a tree structure of objects where every object has the same interface
-  4. Decorator Pattern, add additional functionality to an object at runtime where subclassing would result in an exponential rise of new classes
-  5. Facade, create a simplified interface of an existing interface to ease usage for common tasks
-  6. Flyweight Pattern, a large quantity of objects share a common properties object to save space
-  7. MVVM, facilitates a separation of development of the graphical user interface with the help of mark-up language or GUI code. The full form of MVVM is Model–View–ViewModel.
+  1. __Adapter Pattern__, adapts' one interface for a class into one that a client expects
+  2. __Aggregate Pattern__, a version of the Composite pattern with methods for aggregation of children
+  3. __Composite Pattern__, a tree structure of objects where every object has the same interface
+  4. __Decorator Pattern__, add additional functionality to an object at runtime where subclassing would result in an exponential rise of new classes
+  5. __Facade__, create a simplified interface of an existing interface to ease usage for common tasks
+  6. __Flyweight Pattern__, a large quantity of objects share a common properties object to save space
+  7. __MVVM__, facilitates a separation of development of the graphical user interface with the help of mark-up language or GUI code. The full form of MVVM is Model–View–ViewModel.
   8. MVC, used to decouple user-interface (view), data (model), and application logic (controller). This pattern helps to achieve separation of concerns
 
 #### Behavioural Design Patterns. 
 Behavioural patterns are concerned with algorithms and the assignment of responsibilities between objects. Behavioural patterns describe not just patterns of objects or classes but also the patterns of communication between them. These patterns characterise complex control flow that's difficult to follow at run-time. They shift your focus away from flow of control to let you concentrate just on the way objects are interconnected.
 
-a) Command pattern, Command objects encapsulate an action and its parameters
-b) Iterator pattern, Iterators are used to access the elements of an aggregate object sequentially without exposing its underlying representation
-c) Mediator pattern, Provides a unified interface to a set of interfaces in a subsystem
-d) Memento Provides the ability to restore an object to its previous state (rollback)
-e) Observer pattern, a.k.a. Publish/Subscribe or Event Listener. Objects register to observe an event that may be raised by another object
-f) State pattern, A clean way for an object to partially change its type at runtime
-g) Strategy pattern, Algorithms can be selected on the fly, using composition
+1. __Command pattern__, Command objects encapsulate an action and its parameters
+2. __Iterator pattern__, Iterators are used to access the elements of an aggregate object sequentially without exposing its underlying representation
+3. __Mediator pattern__, Provides a unified interface to a set of interfaces in a subsystem
+4. __Memento__, Provides the ability to restore an object to its previous state (rollback)
+5. __Observer pattern__, a.k.a. Publish/Subscribe or Event Listener. Objects register to observe an event that may be raised by another object
+6. __State pattern__, A clean way for an object to partially change its type at runtime
+7. __Strategy pattern__, Algorithms can be selected on the fly, using composition
 
 #### Creational Design Patterns. 
 Creational design patterns deal with object creation. They solve a problem of a client knowing how objects are created. They are based on the idea of encapsulating information about the concrete types an object uses and hiding implementation details of how objects are created  
 
 Examples. 
- a) Abstract Factory, which provides an interface for creating related or dependent objects without specifying the objects' concrete classes.
- b) Builder, which separates the construction of a complex object from its representation so that the same construction process can create different representations.
- c) Factory method, which allows a class to defer instantiation to subclasses.
- d) Prototype pattern, which specifies the kind of object to create using a prototypical instance, and creates new objects by cloning this prototype.
- e) Singleton, which ensures that a class only has one instance, and provides a global point of access to it.
+ 1. __Abstract Factory__, which provides an interface for creating related or dependent objects without specifying the objects' concrete classes.
+ 2. __Builder__, which separates the construction of a complex object from its representation so that the same construction process can create different representations.
+ 3. __Factory method__, which allows a class to defer instantiation to subclasses.
+ 4. __Prototype pattern__, which specifies the kind of object to create using a prototypical instance, and creates new objects by cloning this prototype.
+ 5. __Singleton__, which ensures that a class only has one instance, and provides a global point of access to it.
 
 There’s no doubt investing time into learning these carries enormous benefits. It will definitely take time for one to get used to the habit of studying design patterns but practice makes perfect. We will start by discussing creational patterns in the sections to follow.
