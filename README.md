@@ -10,14 +10,14 @@ We’re living in a rapidly changing world, most companies start with a small ap
 #### Structural Design Patterns. 
 Structural patterns are concerned with how classes and objects are composed to form larger structures. Structural class patterns use inheritance to compose interfaces or implementations. As a simple example, consider how multiple inheritance mixes two or more classes into one. The result is a class that combines the properties of its parent classes. This pattern is particularly useful for making independently developed class libraries work together
 
- a) Adapter Pattern, adapts' one interface for a class into one that a client expects
- b) Aggregate Pattern, a version of the Composite pattern with methods for aggregation of children
- c) Composite Pattern, a tree structure of objects where every object has the same interface
- d) Decorator Pattern, add additional functionality to an object at runtime where subclassing would result in an exponential rise of new classes
- e) Facade, create a simplified interface of an existing interface to ease usage for common tasks
- f) Flyweight Pattern, a large quantity of objects share a common properties object to save space
- g) MVVM, facilitates a separation of development of the graphical user interface with the help of mark-up language or GUI code. The full form of MVVM is Model–View–ViewModel.
- h) MVC, used to decouple user-interface (view), data (model), and application logic (controller). This pattern helps to achieve separation of concerns
+  1. Adapter Pattern, adapts' one interface for a class into one that a client expects
+  2. Aggregate Pattern, a version of the Composite pattern with methods for aggregation of children
+  3. Composite Pattern, a tree structure of objects where every object has the same interface
+  4. Decorator Pattern, add additional functionality to an object at runtime where subclassing would result in an exponential rise of new classes
+  5. Facade, create a simplified interface of an existing interface to ease usage for common tasks
+  6. Flyweight Pattern, a large quantity of objects share a common properties object to save space
+  7. MVVM, facilitates a separation of development of the graphical user interface with the help of mark-up language or GUI code. The full form of MVVM is Model–View–ViewModel.
+  8. MVC, used to decouple user-interface (view), data (model), and application logic (controller). This pattern helps to achieve separation of concerns
 
 #### Behavioural Design Patterns. 
 Behavioural patterns are concerned with algorithms and the assignment of responsibilities between objects. Behavioural patterns describe not just patterns of objects or classes but also the patterns of communication between them. These patterns characterise complex control flow that's difficult to follow at run-time. They shift your focus away from flow of control to let you concentrate just on the way objects are interconnected.
